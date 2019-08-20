@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
  * @author Ryan Baxter
  */
 @Service
+@EnableFeignClients
 public class NameService {
 	private NameFeignClient nameFeignClient;
 
